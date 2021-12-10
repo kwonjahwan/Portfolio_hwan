@@ -1,0 +1,39 @@
+/*공통*/
+@media screen and (max-width:1350px){
+	.inner{width:98%;}
+}
+
+@media screen and (max-width:800px){
+	.bg_box04{transition:all 1.2s;}
+	.bg_box01,
+	.bg_box02,
+	.bg_box03,
+	.container{display:none;}
+	.mobcontainer{display:block; }
+	.mobcontainer .mainbox{z-index:999;}
+
+	.bg_box01{ left:-180px;top:-15%;width:320px;height:auto; opacity:0.7;}
+	.bg_box02{ left:8%;top:15%; width:102px;  height:auto; opacity:0.7}
+	.bg_box03{ right:-10%;top:25%; width:220px; opacity:0.7}
+	.bg_box04{left:-3%;top:50%; width:106px;  height:auto; opacity:0.7}
+}
+
+/*==========================================================*/
+
+@media screen and (max-width:500px){
+	.mainbox .boximg img{width:377px;}
+
+	h1.maintitle{ font-size:47px; }
+	h1.maintitle p{font-size:27px;}
+
+	.boxtxt span a{ font-size:15px; }
+}
+@media screen and (max-width:410px){
+	.mainbox .boximg img{width:317px;}
+
+	h1.maintitle{ font-size:40px;}
+	h1.maintitle p{font-size:25px;}
+}
+@media screen and (max-width:320px){
+	.mainbox .boximg img{width:307px;}
+}
